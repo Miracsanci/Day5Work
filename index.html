@@ -7,29 +7,33 @@
     <title>BTK Akademi 5. Gün Proje</title>
     <style>
         body{
-            background-color: beige;
+            background-color: #F2E3D5;
         }
         div#kutukapla
         {  
+            margin-top: 10px;
             width: 80%;
             height: 80%;
             border: 5px solid purple;
             margin: auto;
             display: flex;
-            background-color: bisque;
+            background-color: #3CA6A6;
             /* direction: rtl; */
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: center;
         }
         div.kutu
-        {
+        {   
+            border-radius: 20px;
             border: 5px solid purple;
             width: 350px;
             height: 450px;
+            background-color: #F2E3D5;
+            /*
             background: #12c2e9;  
             background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  
-            background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+            background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);*/
             color: white;
             text-align: center;
             vertical-align: center;
@@ -38,7 +42,9 @@
             text-align: center; 
             margin-top: 30px;        
         }
+        
         header{
+            background-color: #3CA6A6;
             margin: auto;
             border: 5px solid purple;
             font-size: 36px;
@@ -46,12 +52,13 @@
             width: 80%;
             text-align: center;
         }
-        /*nav{
+        nav{
+            background-color: #3CA6A6;
             border: 5px solid purple;
             text-align: center;
             margin: auto;
+            width: 80%;
         }
-        */
         ul {
             list-style-type: none;
             margin: auto;
@@ -59,6 +66,7 @@
             overflow: hidden;
         }
         li {
+            margin: auto;
             float:left;
             text-align: center;
         }
@@ -68,24 +76,27 @@
             background-color: bisque;
             text-decoration: none;
             color: #000000;
+            border: 2px solid black;
+            border-radius: 10px;
         }
         li a:hover {
             background-color: black;
             color: bisque;
+            padding: 16px 20px;
         }
         #footer{
             text-align: center;
         }
         footer{
+            background-color: #026773;
             width: 80%;
             border: 5px solid purple;
             border-radius: 0 0 15px 15px ;
             margin: auto;
         }
         #menu{
-            border: 5px solid purple;
             margin: auto;
-            width: 80%;
+            width: 40%; 
             text-align: center;
         }
         img.yuvarlak {
@@ -93,22 +104,27 @@
         height: 250px;
         width: 250px;
         object-fit: cover;
+        border: 5px solid black;
+    }   
+        img.yuvarlak:hover{
+        border-radius: 50%;
+        height: 315px;
+        width: 315px;
+        object-fit: cover;
     }
-        /*p{
-            border: 3px solid black;
-            width: 100px;
-            height: 30px;
-            text-align: center;
-        }
+    p{
+     color: black;
+     font-size:large;
+    }
         */
     </style>
 </head>
 <body>
     <header>BTK Akademi Frontend Çalışmaları</header>
-    <nav>
-        <div id="menu" style="text-align: center;">
-            <ul style="text-align: center; ">
-                <li><a href="index.html">Anasayfa</a></li>
+    <nav >
+        <div id="menu" >
+            <ul style="text-align:center ;">
+                <li><a href="index.html" >Anasayfa</a></li>
                 <li><a href="duyurular.html">Duyurular</a></li>
                 <li><a href="hakkimizda.html">Hakkımızda</a></li>
                 <li><a href="iletisim.html">İletişim</a></li>
@@ -199,7 +215,7 @@
                 <img src="resim/bc5dd67e-9c38-4eb5-88e2-2edc598d8b7d.jpg" alt="" class="yuvarlak"><br>
                 <p>Zeynep Çevik</p><a href="https://github.com/zzeynepcvk" target="_blank" style="padding-top:-100px ;">Github Hesabı</a>
                 <ul style="padding-left: 15%;">
-                    <li><a href="https://github.com/zzeynepcvk/BTK-Gun4-Odev" target="_blank">Github">Proje 1</a></li>
+                    <li><a href="https://github.com/zzeynepcvk/BTK-Gun4-Odev" target="_blank">Proje 1</a></li>
                     <li><a href="https://github.com/zzeynepcvk/virgina-woolf" target="_blank">Proje 2</a></li>
                     <li><a href="https://github.com/zzeynepcvk/java101" target="_blank">Proje 3</a></li>
                 </ul>
